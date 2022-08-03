@@ -1,9 +1,13 @@
 ﻿
 string[] CreateArray(string size)
 {
+   
+
     string[] newArray = new string[size];
     Console.WriteLine("Creating array here:");
     
+    
+
     for(int i = 0; i < size; i++)
     {
         Console.Write($"Input {i + 1} element: ");
